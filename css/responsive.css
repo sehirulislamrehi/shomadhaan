@@ -1,0 +1,655 @@
+
+@media (min-width: 320px) and (max-width: 500px) {
+     .navbar-mob{
+          display: block;
+     }
+     .navbar-pc{
+          display: none;
+     }
+     .topbar-pc .email{
+          position: unset;
+          transform: unset;
+     }
+     .topbar-pc p{
+          text-align: center;
+     }
+     h1{
+          font-size: 24px;
+     }
+     h2,h3{
+          font-size: 18px;
+     }
+     
+     .banner-carousel .item{
+          background-size: 100%;
+     }
+     .banner-carousel .owl-nav .owl-next span, .banner-carousel .owl-nav .owl-prev span {
+          height: 30px;
+          width: 30px;
+          font-size: 18px;
+     }
+     .banner-services-row{
+          position: unset;
+          margin: 0;
+          transform: unset;
+     }
+     .banner-services, .banner-services .container{
+          height: unset;
+          padding: 10px 0;
+     }
+     .banner-services-carousel .item .service-image-icon-block img {
+          width: 25%;
+     }
+     .counting .item{
+          margin-bottom: 15px;
+     }
+     .testimonial-carousel  .item .right img{
+          width: 50%;
+          display: block;
+          margin: 0 auto;
+     }
+     .testimonial-carousel  .item .right p{
+          text-align: center;
+     }
+     .shomadhaan_industry_filtering_row{
+          position: unset;
+          width: unset;
+     }
+     .shomadhan-industry{
+          height: unset;
+     }
+     .shomadhan-industry .container{
+          height: unset;
+     }
+     footer, footer .container{
+          height: unset;
+     }
+     .newsletter-row{
+          position: unset;
+          margin: 0;
+          margin-top: 15px;
+     }
+     .newsletter-row .right, .newsletter-row .middle, .newsletter-row .top-right{
+          position: unset;
+          transform: unset;
+          width: 100%;
+          margin-top: 5px;
+     }
+     .newsletter-row .middle h3{
+          text-align: center;
+          margin: 5px 0;
+     }
+     .industry_filtering_list .right a{
+          right: 0px;
+     }
+     .footer-bottom{
+          padding: 15px 0;
+          text-align: center;
+     }
+     .widget-item{
+          margin: 15px 0;
+     }
+     .shomadhaan_industry_filtering_row .item, .industry_filtering_list .item, .industry_filtering_list .right .content{
+          text-align: center!important;
+     }
+     .sevice-section .item img {
+          width: 15%;
+          top: 50%;
+          transform: translateY(-50%);
+     }
+     
+
+     .service-section-2 .left{
+          position: unset;
+          transform: unset;
+     }
+     .services-section-3 .right{
+          margin-top: 15px;
+     }
+     .services-section-3 .right .right-right{
+          position: unset;
+          transform: unset;
+          margin-top: 15px;
+     }
+     .service-section-4 .right{
+          margin-top: 15px;
+     }
+
+     .book-banner {
+          height: 15vh;
+     }
+     .form-item div{
+          margin: 5px 0;
+          text-align: center;
+     }
+     .form-item .item-left{
+          padding: 0;
+     }
+     .total_price .right, .total_price .left{
+          border-radius: 0;
+     }
+     .shomadhaan-main.about .left{
+          position: unset;
+          transform: unset;
+     }
+     .shomadhan-industry.about, .shomadhan-industry.about .container{
+          height: unset;
+     }
+     .shomadhaan_industry_filtering_row .item{
+          margin-bottom: 15px;
+     }
+
+     .about-bottom .left,
+     .about-bottom-box{
+          position: unset;
+          transform: unset;
+     }
+     .about-bottom-box .middle-right,
+     .about-bottom-box .right{
+          margin-top: 15px;
+     }
+     .auth-media{
+          position: unset;
+          transform: unset;
+     }
+     .register-form{
+          display: block;
+     }
+     .trending-section{
+          padding: 30px 0;
+     }
+     .shomadhaan_industry_filtering_row .item p{
+          text-align: center;
+     }
+     .footer-bottom p{
+          text-align: center;
+     }
+
+     .trending-section .title-row h1{
+          text-align: center!important;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 500px) and (max-width: 768px) {
+     .navbar-mob{
+          display: block;
+     }
+     .navbar-pc{
+          display: none;
+     }
+     h1{
+          font-size: 24px;
+     }
+     h2,h3{
+          font-size: 18px;
+     }
+     .banner-carousel .item{
+          background-size: 100%;
+     }
+     .banner-carousel .owl-nav .owl-next span, .banner-carousel .owl-nav .owl-prev span {
+          height: 30px;
+          width: 30px;
+          font-size: 18px;
+     }
+     .banner-services-row{
+          position: unset;
+          margin: 0;
+          transform: unset;
+     }
+     .banner-services, .banner-services .container{
+          height: unset;
+          padding: 10px 0;
+     }
+     .topbar-pc .col-md-3{
+          width: 40%;
+          text-align: left;
+     }
+     .topbar-pc .col-md-9{
+          width: 40%;
+          text-align: left;
+     }
+     .shomadhaan_industry_filtering_row{
+          position: unset;
+          width: unset;
+     }
+     .shomadhan-industry{
+          height: unset;
+     }
+     .shomadhan-industry .container{
+          height: unset;
+     }
+     footer, footer .container{
+          height: unset;
+     }
+     .newsletter-row{
+          position: unset;
+          margin: 0;
+          margin-top: 15px;
+     }
+     .newsletter-row .right, .newsletter-row .middle, .newsletter-row .top-right{
+          position: unset;
+          transform: unset;
+          width: 100%;
+          margin-top: 5px;
+     }
+     .newsletter-row .middle h3{
+          text-align: center;
+          margin: 5px 0;
+     }
+     .industry_filtering_list .right a{
+          right: 0px;
+     }
+     .footer-bottom{
+          padding: 15px 0;
+          text-align: center;
+     }
+     .widget-item{
+          margin: 15px 0;
+     }
+     .sevice-section .item img {
+          top: -25px;
+     }
+
+
+     .service-section-2 .left{
+          position: unset;
+          transform: unset;
+     }
+     .services-section-3 .right{
+          margin-top: 15px;
+     }
+     .services-section-3 .right .right-right{
+          position: unset;
+          transform: unset;
+          margin-top: 15px;
+     }
+     .service-section-4 .right{
+          margin-top: 15px;
+     }
+     .services-section-3 .col-md-3{
+          width: 100%;
+     }
+     .services-section-3 .col-md-9{
+          width: 100%;
+     }
+     .for-mob{
+          display: block;
+     }
+     .for-pc{
+          display: none;
+     }
+     .services-section-3 .left{
+          margin-top: 15px;
+     }
+
+     .book-banner {
+          height: 15vh;
+     }
+     .form-item div{
+          margin: 5px 0;
+          text-align: center;
+     }
+     .form-item .item-left{
+          padding: 0;
+     }
+     .form-item .col-md-5{
+          width: 100%;
+     }
+     .form-item .col-md-4{
+          width: 100%;
+     }
+     .form-item .col-md-3{
+          width: 100%;
+     }
+     .form-item .col-md-9{
+          width: 100%;
+     }
+     .item-left .col-md-7, .item-left .col-md-5{
+          width: 100%;
+     }
+     .time-choose-row .col-md-8, .time-choose-row .col-md-4{
+          width: 100%;
+     }
+     .form-item .col-md-8{
+          width: 100%;
+     }
+     .form-item{
+          text-align: center;
+     }
+     .total_price .right h3 {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+      }
+      .shomadhaan-main.about .left{
+          position: unset;
+          transform: unset;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 800px) {
+     .shomadhaan_industry_filtering_row{
+          position: unset;
+          width: unset;
+     }
+     .shomadhan-industry{
+          height: unset;
+     }
+     .shomadhan-industry .container{
+          height: unset;
+     }
+     h1{
+          font-size: 24px;
+     }
+     h2,h3{
+          font-size: 18px;
+     }
+     .service-section-2 .left{
+          position: unset;
+          transform: unset;
+     }
+     .form-item .col-md-5{
+          width: 100%;
+     }
+     .form-item .col-md-4{
+          width: 100%;
+     }
+     .form-item .col-md-3{
+          width: 100%;
+     }
+     .form-item .col-md-9{
+          width: 100%;
+     }
+     .item-left .col-md-7, .item-left .col-md-5{
+          width: 100%;
+     }
+     .time-choose-row .col-md-8, .time-choose-row .col-md-4{
+          width: 100%;
+     }
+     .form-item .col-md-8{
+          width: 100%;
+     }
+     .form-item{
+          text-align: center;
+     }
+     .total_price .right h3 {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+      }
+}
+
+
+
+@media (min-width: 500px) and (max-width: 1000px) {
+     .service-section-2 .left, .services-section-3 .right .right-right{
+          position: unset;
+          transform: unset;
+     }
+     .shomadhaan-main.about .left{
+          position: unset;
+          transform: unset;
+     }
+     .shomadhan-industry.about, .shomadhan-industry.about .container{
+          height: unset;
+     }
+     .about-bottom .left,
+     .about-bottom-box{
+          position: unset;
+          transform: unset;
+     }
+     .about-bottom-box .middle-right,
+     .about-bottom-box .right{
+          margin-top: 15px;
+     }
+}
+
+
+
+@media (min-width: 600px) and (max-width: 800px) {
+     .shomadhan-industry.about, .shomadhan-industry.about .container{
+          height: unset;
+     }
+}
+
+
+@media (min-width: 600px) and (max-width: 1000px) {
+     .shomadhan-industry.about, .shomadhan-industry.about .container{
+          height: 15vh;
+     }
+     .register-form{
+          display: block;
+     }
+}
+@media (min-width:700px) and (max-width: 950px) {
+     .register-form{
+          display: inherit;
+     }
+}
+
+
+
+@media (min-width: 600px) and (max-width: 1100px) {
+     .form-item .col-md-5{
+          width: 100%;
+     }
+     .form-item .col-md-4{
+          width: 100%;
+     }
+     .form-item .col-md-3{
+          width: 100%;
+     }
+     .form-item .col-md-9{
+          width: 100%;
+     }
+     .item-left .col-md-7, .item-left .col-md-5{
+          width: 100%;
+     }
+     .time-choose-row .col-md-8, .time-choose-row .col-md-4{
+          width: 100%;
+     }
+     .form-item .col-md-8{
+          width: 100%;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 990px) {
+     .navbar-mob{
+          display: block;
+     }
+     .navbar-pc{
+          display: none;
+     }
+     h1{
+          font-size: 24px;
+     }
+     h2,h3{
+          font-size: 18px;
+     }
+     .banner-carousel .item{
+          background-size: 100%;
+     }
+     .banner-carousel .owl-nav .owl-next span, .banner-carousel .owl-nav .owl-prev span {
+          height: 30px;
+          width: 30px;
+          font-size: 18px;
+     }
+     .banner-services-row{
+          position: unset;
+          margin: 0;
+          transform: unset;
+     }
+     .banner-services, .banner-services .container{
+          height: unset;
+          padding: 10px 0;
+     }
+     .banner-services-carousel .item .service-image-icon-block {
+          height: 100px;
+     }
+     .topbar-pc .col-md-3{
+          width: 40%;
+          text-align: left;
+     }
+     .topbar-pc .col-md-9{
+          width: 40%;
+          text-align: left;
+     }
+     .form-item .col-md-5{
+          width: 100%;
+     }
+     .form-item .col-md-4{
+          width: 100%;
+     }
+     .form-item .col-md-3{
+          width: 100%;
+     }
+     .form-item .col-md-9{
+          width: 100%;
+     }
+     .item-left .col-md-7, .item-left .col-md-5{
+          width: 100%;
+     }
+     .time-choose-row .col-md-8, .time-choose-row .col-md-4{
+          width: 100%;
+     }
+     .form-item .col-md-8{
+          width: 100%;
+     }
+     .form-item{
+          text-align: center;
+     }
+     .total_price .right h3 {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+      }
+}
+
+
+
+
+
+
+
+@media (min-width: 990px) and (max-width: 1024px) {
+     .navbar-mob{
+          display: none;
+     }
+     .navbar-pc{
+          display: block;
+     }
+     
+     .banner-carousel .item{
+          background-size: 100%;
+     }
+     .banner-carousel .owl-nav .owl-next span, .banner-carousel .owl-nav .owl-prev span {
+          height: 30px;
+          width: 30px;
+          font-size: 18px;
+     }
+     .banner-services-row{
+          position: unset;
+          margin: 0;
+          transform: unset;
+     }
+     .banner-services, .banner-services .container{
+          height: unset;
+          padding: 10px 0;
+     }
+     .banner-services-carousel .item .service-image-icon-block img {
+          width: 25%;
+     }
+     .banner-services-carousel .item .service-image-icon-block {
+          height: 100px;
+     }
+     .topbar-pc .col-md-3{
+          width: 40%;
+          text-align: left;
+     }
+     .topbar-pc .col-md-9{
+          width: 40%;
+          text-align: left;
+     }
+     .newsletter-row .top-right{
+          width: 65%;
+     }
+     .newsletter-row{
+          bottom: -15px;
+     }
+     .service-section-2 .left{
+          position: unset;
+          transform: unset;
+     }
+     .form-item{
+          text-align: center;
+     }
+     .form-item .col-md-5{
+          width: 100%;
+     }
+     .form-item .col-md-4{
+          width: 100%;
+     }
+     .form-item .col-md-3{
+          width: 100%;
+     }
+     .form-item .col-md-9{
+          width: 100%;
+     }
+     .item-left .col-md-7, .item-left .col-md-5{
+          width: 100%;
+     }
+     .time-choose-row .col-md-8, .time-choose-row .col-md-4{
+          width: 100%;
+     }
+     .form-item .col-md-8{
+          width: 100%;
+     }
+     .total_price .right h3 {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+      }
+}
+
+
+
+
+
+
+
+
+

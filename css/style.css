@@ -1,0 +1,2019 @@
+/* global css start */
+html{
+     scroll-behavior: smooth;
+}
+@font-face {
+     font-family: Now-Bold;
+     src: url(../fonts/Now-Bold.woff);
+ }
+ @font-face {
+     font-family: Now-Black;
+     src: url(../fonts/Now-Black.woff);
+ }
+ @font-face {
+     font-family: Now-Medium;
+     src: url(../fonts/Now-Medium.woff);
+ }
+ h1,h2,h3{
+      margin: 0;
+      padding: 0;
+      color: #2f2a2a;
+ }
+ h1{
+      font-size: 32px;
+     /*font-family: Now-Medium;*/
+     font-family: 'Mulish', sans-serif;
+ }
+h2{
+     font-size: 24px;
+    /*font-family: Now-Medium;*/
+    font-family: 'Mulish', sans-serif;
+}
+h3{
+     font-size: 18px;
+    /*font-family: Now-Medium;*/
+    font-family: 'Mulish', sans-serif;
+}
+
+ ul{
+      padding: 0;
+      margin: 0;
+ }
+ a{
+     text-decoration: none;
+ }
+ p, li, a, button, tr, td, input, label{
+     font-size: 13px;
+     /*font-family: Now-Medium;*/
+     font-family: 'Mulish', sans-serif;
+     color: #000000;
+     margin: 0;
+     padding: 0;
+     font-weight: 600;
+ }
+ button:focus{
+      outline: none;
+ }
+ p{
+     text-align: justify;
+ }
+.m-t-30{
+     margin-top: 30px;
+}
+.m-t-15{
+     margin-top: 15px;
+}
+.m-b-30{
+     margin-bottom: 30px;
+}
+.m-b-15{
+     margin-bottom: 15px;
+}
+.p-t-30{
+     padding-top: 30px;
+}
+.p-t-15{
+     padding-top: 15px;
+}
+.p-b-30{
+     padding-bottom: 30px;
+}
+.p-b-15{
+     padding-bottom: 15px;
+}
+.form-control:focus{
+     box-shadow: none;
+     outline: none;
+}
+button:focus{
+     outline: none;
+}
+.form-group{
+     margin: 15px 0;
+}
+/* global css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* topbar pc start */
+.topbar-pc{
+     background: #272727;
+     padding: 5px 0;
+}
+.topbar-pc p{
+     color: white;
+}
+.topbar-pc .email{
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     z-index: 1;
+     left: 0;
+}
+/* topbar pc end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar pc start */
+.navbar-pc{
+     padding: 15px 0;
+}
+.navbar-pc .container{
+     position: relative;
+}
+.navbar-pc .nav-item ul li a{
+     font-size: 13px;
+     cursor: pointer;
+}
+.navbar-pc .nav-item{
+     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+.navbar-pc .nav-item ul{
+     text-align: left;
+}
+.navbar-pc .nav-item ul li {
+     display: inline-block;
+     margin: 0 10px;
+}
+.navbar-pc .nav-item ul li a:hover{
+     color: #f246a3;
+}
+.navbar-pc .navbar-right a{
+     background: #055555;
+     color: white;
+     padding: 10px 15px;
+     border-radius: 5px;
+}
+.navbar-pc .navbar-right{
+     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+.active-nav{
+     color: #f246a3;
+     border-bottom: 2px solid #f246a3;
+}
+.services-nav{
+     position: absolute;
+     top: 100%;
+     background: white;
+     width: 100%;
+     z-index: 2;
+     opacity: 1;
+     visibility: unset;
+     transition: 0.4s ease-in-out;
+     padding: 30px;
+}
+.services-nav .left .logo{
+     display: block;
+     margin: 0 auto;
+}
+.service-list p{
+     color: #055555;
+     cursor: pointer;
+}
+.service-list-dropdown ul li{
+     list-style: none;
+     margin: 5px 0;
+}
+.service-list-dropdown ul li a:hover{
+     color: #055555;
+}
+.service-list-dropdown{
+     display: none;
+}
+/* navbar pc end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar mob start */
+.navbar-mob{
+     display: none;
+     padding: 15px 0;
+}
+.navbar-mob .nav-right{
+     position: absolute;
+     top: 50%;
+     right: 15px;
+     transform: translateY(-50%);
+     height: 25px;
+     width: 25px;
+     text-align: center;
+}
+.navbar-mob .nav-list{
+     padding: 15px 15px 0 15px;
+     display: none;
+}
+.navbar-mob .nav-list ul li{
+     list-style: none;
+     margin: 10px 0;
+}
+.hide-nav{
+     display: none;
+     color: #f246a3;
+}
+.navbar-mob .nav-list ul li .navbar-right a{
+     background: #247792;
+     color: white;
+     padding: 10px 15px;
+     display: inline-block;
+     border-radius: 5px;
+}
+.our-services-mob{
+     position: relative;
+}
+.our-services-list-mob{
+     margin-top: 15px;
+     padding-left: 15px;
+     display: none;
+}
+.our-services-mob a{
+     display: inherit;
+}
+.our-services-list-item-mob{
+     margin-bottom: 15px;
+}
+.our-services-list-item-mob p{
+     color: #f246a3;
+}
+.our-services-list-item-dropdown-mob{
+     padding-left: 15px;
+     display: none;
+}
+/* navbar mob end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home banner start */
+
+.banner-carousel .item{
+     background-size: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+.banner-carousel .owl-nav{
+     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    left: 0;
+}
+.banner-carousel .owl-nav .owl-next span{
+     position: absolute;
+     right: 15px;
+     top: 0;
+     background: white;
+     height: 45px;
+     width: 45px;
+     border-radius: 100%;
+     font-size: 27px;
+     color: #247792;
+}
+.banner-carousel .owl-nav .owl-next span:hover{
+     background: #247792;
+     color: white;
+}
+.banner-carousel .owl-nav .owl-prev span:hover{
+     background: #247792;
+     color: white;
+}
+.banner-carousel .owl-nav .owl-prev span{
+     position: absolute;
+     left: 15px;
+     top: 0;
+     background: white;
+     height: 45px;
+     width: 45px;
+     border-radius: 100%;
+     font-size: 27px;
+     color: #247792;
+}
+/* home banner end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* banner services start */
+.banner-services{
+     background: #d9e4dd;
+     position: relative;
+     height: 15vh;
+     box-shadow: #cccccc 0px 3px 17px 3px;
+}
+.banner-services .container{
+     position: relative;
+     height: 15vh;
+}
+.banner-services-row{
+     z-index: 5;
+     position: absolute;
+     left: 0;
+     width: 100%;
+     bottom: 0%;
+     transform: translateY(0%);
+}
+.banner-services-carousel .item .service-image-icon-block{
+     height: 150px;
+     position: relative;
+}
+.banner-services-carousel .item .service-image-icon-block img{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+    transition: 0.4s ease-in-out;
+    height: 100px;
+    width: 100px;
+}
+.banner-services-carousel .item .service-image-icon-block img:hover{
+    box-shadow: #757575 1px 5px 15px 0px;
+     transition: 0.4s ease-in-out;
+}
+
+.banner-services-carousel  .owl-nav .owl-next span{
+     position: absolute;
+     right: 15px;
+     top: 0;
+     background: white;
+     height: 25px;
+     width: 25px;
+     border-radius: 100%;
+     font-size: 15px;
+     color: #247792;
+     top: 50%;
+    transform: translateY(-50%);
+}
+.banner-services-carousel .owl-nav .owl-next span:hover{
+     background: #247792;
+     color: white;
+}
+.banner-services-carousel .owl-nav .owl-prev span:hover{
+     background: #247792;
+     color: white;
+}
+.banner-services-carousel  .owl-nav .owl-prev span{
+     position: absolute;
+     left: 15px;
+     top: 0;
+     background: white;
+     height: 25px;
+     width: 25px;
+     border-radius: 100%;
+     font-size: 15px;
+     color: #247792;
+     top: 50%;
+    transform: translateY(-50%);
+}
+.banner-services-carousel .item a{
+     display:block;
+}
+/* banner services end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* trending section start */
+.trending-section{
+     padding: 100px 0;
+}
+.trending-section .banner-services-carousel .owl-nav .owl-prev span{
+     background: #247792;
+     color: white;
+}
+.trending-section .banner-services-carousel .owl-nav .owl-prev span:hover{
+     background: white;
+     color: #247792;
+}
+.trending-section .banner-services-carousel .owl-nav .owl-next span:hover{
+     background: white;
+     color: #247792;
+}
+.trending-section .banner-services-carousel .owl-nav .owl-next span{
+     background: #247792;
+     color: white;
+}
+.title-row{
+     margin-bottom: 30px;
+}
+/* trending section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* shomadhan industry css start */
+.shomadhan-industry{
+     height: 25vh;
+     position: relative;
+}
+.shomadhan-industry .container{
+     height: 25vh;
+     position: relative;
+}
+.shomadhan-industry .title-row h1{
+     position: relative;
+}
+.shomadhan-industry .title-row h1::after{
+     content: "";
+    position: absolute;
+    background: #212529;
+    height: 4px;
+    width: 10%;
+    top: 115%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.shomadhaan_industry_filtering_row{
+     position: absolute;
+     bottom: -15px;
+     left: 0;
+     width: 100%;
+}
+.shomadhaan_industry_filtering_row .item{
+     padding: 15px;
+     cursor: pointer;
+     background: white;
+     box-shadow: #696565 0px 4px 14px -11px;
+}
+.shomadhaan-main{
+     background: #f1f3f5;
+     padding: 30px 0;
+     background-position: inherit;
+    background-size: inherit;
+}
+.industry_filtering_list{
+     display: none;
+}
+.active_filtering_list{
+     display: flex;
+}
+.filter_active{
+     background: #f1f3f5!important;
+     box-shadow: none!important;
+}
+.industry_filtering_list .item .icon-img{
+     width: 20%;
+}
+.industry_filtering_list .item{
+     background: white;
+     padding: 15px;
+     margin-bottom: 15px;
+     border-radius: 5px;
+}
+.industry_filtering_list .item h3{
+     margin: 10px 0;
+}
+.industry_filtering_list .item p{
+     text-align: justify;
+}
+.industry_filtering_list .right {
+     background: #f8f9fb;
+     position: relative;
+}
+.industry_filtering_list .right img{
+     width: 100%;
+}
+.industry_filtering_list .right .content{
+     padding: 15px;
+}
+.industry_filtering_list .right a{
+     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -15px;
+    z-index: 2;
+    background: #555555;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    color: white;
+}
+.industry_filtering_list .right .fa-play{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.industry_filtering_list .right a:hover{
+     color: #555555;
+     background: white;
+}
+/* shomadhan industry css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sevice-section css start */
+.sevice-section{
+     padding: 30px 0;
+     margin-bottom: 5px;
+}
+.sevice-section .title-row{
+     margin-bottom: 50px;
+}
+.sevice-section .title-row h1{
+     position: relative;
+}
+.sevice-section .title-row h1::after{
+     content: "";
+    position: absolute;
+    background: #212529;
+    height: 4px;
+    width: 10%;
+    top: 115%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sevice-section .item{
+     position: relative;
+     background: white;
+     padding: 30px 15px;
+     border-radius:10px ;
+     cursor: pointer;
+     margin-bottom: -10px;
+     box-shadow: #757575 0px 0px 6px -3px;
+}
+.sevice-section .item img{
+    box-shadow: #757575 1px 1px 6px -2px;
+     border-radius: 100%;
+}
+.sevice-section .item img:hover{
+     box-shadow: none;
+}
+.sevice-section .item img{
+     position: absolute;
+    width: 20%;
+    top: -30px;
+    left: 15px;
+}
+.sevice-section .item p{
+     text-align: right;
+     color: #000000!important;
+}
+.service-dropdown{
+     top: 100%;
+     left: 0;
+     width: 100%;
+     background: white;
+     display: none;
+     box-shadow: #757575 0px 0px 6px -3px;
+     margin-top: 15px;
+}
+.service-dropdown ul li{
+     list-style: none;
+}
+.service-dropdown ul li a{
+     color: #000000;
+     padding: 15px;
+     display: block;
+}
+.service-dropdown ul li a:hover{
+     background: #f1f3f5;
+     color: #2e2e2e;
+}
+.remove-shadow{
+    box-shadow: none!important;
+}
+/* sevice-section css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* counting section start */
+.counting{
+     background: #ffffff;
+    padding: 30px 0;
+    box-shadow: #b7b7b7 0px 4px 25px -7px;
+    margin: 5px 0;
+}
+.counting .item h2{
+     color: #055555;
+}
+.counting .item img{
+     width: 10%;
+     display: block;
+     margin: 0 auto;
+}
+/* counting section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* testimonial section start */
+.testimonial_section{
+     padding: 30px 0;
+     background: #f4f4f4;
+}
+.testimonial-carousel .item{
+     background: white;
+     padding: 30px;
+     border-radius: 10px;
+}
+.testimonial-carousel .item .left .fas{
+     color: #fed701;
+     font-size: 30px;
+}
+.testimonial-carousel  .owl-nav .owl-next span{
+     position: absolute;
+     right: 15px;
+     top: 0;
+     background: #247792;
+     height: 25px;
+     width: 25px;
+     border-radius: 100%;
+     font-size: 15px;
+     color: white;
+     top: 50%;
+    transform: translateY(-50%);
+}
+.testimonial-carousel  .owl-nav .owl-next span:hover{
+     background: white;
+     color: #247792;
+}
+.testimonial-carousel  .owl-nav .owl-prev span:hover{
+     background: white;
+     color: #247792;
+}
+.testimonial-carousel  .owl-nav .owl-prev span{
+     position: absolute;
+     left: 15px;
+     top: 0;
+     background: #247792;
+     height: 25px;
+     width: 25px;
+     border-radius: 100%;
+     font-size: 15px;
+     color: white;
+     top: 50%;
+    transform: translateY(-50%);
+}
+/* testimonial section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* client section css start */
+.client-section{
+     padding: 30px 0;
+}
+.client-carousel .item .client-logo{
+     height: 150px;
+    width: 100%;
+    position: relative;
+}
+.client-carousel .item .client-logo img{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 50%;
+}
+.client-carousel .owl-nav .owl-next span{
+     position: absolute;
+     right: 15px;
+     top: 0;
+     background: #247792;
+     height: 25px;
+     width: 25px;
+     border-radius: 100%;
+     font-size: 15px;
+     color: white;
+     top: 50%;
+    transform: translateY(-50%);
+}
+.client-carousel .owl-nav .owl-next span:hover{
+     background: white;
+     color: #247792;
+}
+.client-carousel .owl-nav .owl-prev span:hover{
+     background: white;
+     color: #247792;
+}
+.client-carousel  .owl-nav .owl-prev span{
+     position: absolute;
+     left: 15px;
+     top: 0;
+     background: #247792;
+     height: 25px;
+     width: 25px;
+     border-radius: 100%;
+     font-size: 15px;
+     color: white;
+     top: 50%;
+    transform: translateY(-50%);
+}
+/* client section css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* services banner start */
+.services-banner{
+     height: 20vh;
+     background-position: center;
+     background-size: 100%;
+     background-repeat: no-repeat;
+}
+.services-banner .container{
+     height: 20vh;
+     position: relative;
+}
+.services-banner .container .row{
+     position: absolute;
+     top: 50%;
+     left: 0;
+     transform: translateY(-50%);
+     width: 100%;
+}
+.services-banner .container .row ul li{
+     display: inline;
+}
+.services-banner .container .row ul li a:hover{
+     color: #515b68;
+}
+/* services banner end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* services section 2 start */
+.service-section-2{
+     padding: 30px 0;
+}
+.service-section-2 .title-row h3{
+     position: relative;
+     color: #247792;
+}
+.service-section-2 .title-row h3::before{
+     content: "";
+     position: absolute;
+     background:  #247792;
+     right: 101%;
+     top: 50%;
+     transform: translateY(-50%);
+     height: 2px;
+     width: 5%;
+}
+.service-section-2 .left{
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     left: 0;
+     width: 100%;
+}
+.service-section-2 .left ul li{
+     list-style: none;
+     margin-bottom: 5px;
+}
+.service-section-2 .left ul li .fas{
+     color: #247792;
+}
+/* services section 2 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* services section 3 start */
+.services-section-3{
+     padding: 30px 0;
+     background: #f1f3f5;
+}
+.services-section-3 .left h3{
+     padding: 10px;
+     background: #6984c2;
+     padding-left: 15px;
+     color: white;
+}
+.services-section-3 .left ul li{
+     list-style: none;
+     padding: 10px;
+     padding-left: 15px;
+     background: white;
+     cursor: pointer;
+     margin-bottom: 3px;
+}
+.services-section-3 .left ul li:hover{
+     background: #f1f3f5;
+}
+.services-section-3 .right{
+     display: none;
+}
+.services-section-3 .show-service{
+     display: block;
+}
+.active-item{
+     background: #f1f3f5!important;
+}
+.services-section-3 .right .right-right{
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     left: 0;
+     width: 100%;
+}
+.services-section-3 .right ul li{
+     list-style: none;
+     margin: 5px 0;
+}
+.services-section-3 .right ul li .fas{
+     color: #247792;
+}
+.services-section-3 .right  a{
+     display: inline-block;
+     background: #6984c2;
+     color: white;
+     padding: 10px 15px;
+     margin-top: 15px;
+}
+.services-section-3 .right  a:hover{
+     background: white;
+     color: #6984c2;
+}
+.services-section-3 .left-bottom{
+     background: white;
+     padding: 15px;
+     margin-top: 15px;
+}
+.services-section-3 .left-bottom ul li{
+     list-style: none;
+     margin-bottom: 10px;
+}
+.services-section-3 .left-bottom ul li .fas{
+     color: #055555;
+}
+/* services section 3 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* services section 4 start */
+.service-section-4 .right{
+     background: white;
+     padding: 30px;
+     box-shadow: #000000 0px 0px 6px -4px;
+}
+table thead tr{
+     background: #6984c2;
+     color: white;
+}
+
+/* services section 4 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* services section 5 start */
+.services-section-5 {
+     padding: 30px 0;
+}
+.services-section-5 .title-row h3{
+     color: #6984c2;
+}
+.services-section-5 .item{
+     padding: 15px;
+     margin-bottom: 15px;
+}
+.services-section-5 .item img{
+     width: 30%;
+     display: block;
+     margin: 0 auto;
+}
+.services-section-5 .item p{
+     text-align: justify;
+}
+.for-mob{
+     display: none;
+}
+/* services section 5 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* booking page css start */
+.car-booking-banner {
+     padding: 30px 0;
+     background: #e6e6e6;
+}
+.car-booking-banner .item{
+     position: relative;
+     cursor: pointer;
+     margin-bottom: 15px;
+}
+.car-booking-banner .item .icon_image{
+     position: absolute;
+     left: 15px;
+     top: 50%;
+     transform: translateY(-50%);
+}
+.car-booking-banner .item p{
+     position: absolute;
+     right: 15px;
+     top: 50%;
+     transform: translateY(-50%);
+     color: white;
+}
+.car-booking-banner .item .b-img{
+     width: 100%;
+}
+.h-img{
+     display: none;
+}
+.for-hotel-book, .for-custom-book{
+     display: none;    
+}
+.book-banner{
+     height: 50vh;
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.select-type{
+     padding: 30px 0;
+}
+.vehicle-carousel .item .item-image{
+     cursor: pointer;
+     position: relative;
+}
+.item-image {
+     position: relative;
+}
+.hotel-carousel .item .item-image a{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     background: #000000;
+     color: white;
+     padding: 15px 20px;
+}
+.active-booking::before{
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgb(248,216,177,0.5);
+}
+.vehicle-carousel  .owl-nav .owl-next span{
+     position: absolute;
+     right: 15px;
+     top: 0;
+     background: white;
+     height: 25px;
+     width: 25px;
+     border-radius: 100%;
+     font-size: 15px;
+     color: #247792;
+     top: 50%;
+    transform: translateY(-50%);
+}
+.vehicle-carousel .owl-nav .owl-next span:hover{
+     background: #247792;
+     color: white;
+}
+.vehicle-carousel .owl-nav .owl-prev span:hover{
+     background: #247792;
+     color: white;
+}
+.vehicle-carousel  .owl-nav .owl-prev span{
+     position: absolute;
+     left: 15px;
+     top: 0;
+     background: white;
+     height: 25px;
+     width: 25px;
+     border-radius: 100%;
+     font-size: 15px;
+     color: #247792;
+     top: 50%;
+    transform: translateY(-50%);
+}
+.form-booking{
+     display: none;
+     background: #f8f8f8;
+     padding: 20px;
+}
+
+.total_price .right{
+     position: relative;
+     text-align: center;
+     background: white;
+     padding: 15px;
+     border-radius: 0px 15px 15px 0px;
+     border-right: 2px solid #ececec;
+}
+.total_price .right p{
+     position: absolute;
+     bottom: 65%;
+     left: 65%;
+     transform: translateX(-50%);
+}
+.total_price .right h3{
+     color: #fcb153;
+}
+.total_price .left{
+     position: relative;
+     background: white;
+     padding: 15px;
+}
+.total_price .left::after{
+     content: "";
+     position: absolute;
+     left: 0;
+     height: 100%;
+     width: 5px;
+     background: #fcb153;
+     top: 0;
+}
+.form-item{
+     background: white;
+    margin-top: 15px;
+    box-shadow: #000000 0px 0px 4px -3px;
+}
+.form-date, .form-time{
+     border: none;
+     color: #fcb153;
+     width: 100%;
+}
+.chosen{
+     width: 100%;
+}
+.chosen-container-single .chosen-single{
+     border: none!important;
+}
+.chosen-container-single .chosen-single div b{
+     display: none!important;
+}
+.form-item .item-left{
+     padding: 15px 5px;
+     border-right: 1px solid #e1e1e1;
+}
+.item-left ul{
+     margin-top: 5px;
+}
+.item-left ul li{
+     display: inline-block;
+}
+.number-increment button{
+     display: inline-block;
+     border: none;
+     background: #f4f4f4;
+     margin: -3px;
+     padding: 5px 10px;
+}
+.number-increment input{
+     display: inline-block;
+     border: none;
+     margin: -3px;
+     padding: 5px 10px;
+     background: #f4f4f4;
+}
+.number-increment .div{
+     background: #f4f4f4;
+    padding: 5px;
+    display: inline-block;
+}
+input:focus{
+     outline: none;
+}
+.chosen-container {
+     width: 100%!important;
+}
+.form-item-two .item-left{
+     background: white;
+     padding: 15px;
+}
+.show_round_trip{
+     display: none;
+}
+.take-vehicle-facility{
+     display: none;
+}
+.hotel-carousel  .owl-nav .owl-next span,
+.vehicle-carousel  .owl-nav .owl-next span{
+     position: absolute;
+     right: 15px;
+     top: 0;
+     background: white;
+     height: 25px;
+     width: 25px;
+     border-radius: 100%;
+     font-size: 15px;
+     color: #247792;
+     top: 50%;
+    transform: translateY(-50%);
+}
+
+.hotel-carousel  .owl-nav .owl-prev span,
+.vehicle-carousel  .owl-nav .owl-prev span{
+     position: absolute;
+     left: 15px;
+     top: 0;
+     background: white;
+     height: 25px;
+     width: 25px;
+     border-radius: 100%;
+     font-size: 15px;
+     color: #247792;
+     top: 50%;
+    transform: translateY(-50%);
+}
+/* booking page css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* custom radio */
+/* The container */
+/* The container */
+.check-car {
+     display: block;
+     position: relative;
+     margin-bottom: 12px;
+     cursor: pointer;
+     font-size: 22px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+   }
+   
+   /* Hide the browser's default radio button */
+   .check-car input {
+     position: absolute;
+     opacity: 0;
+     cursor: pointer;
+   }
+   
+   /* Create a custom radio button */
+   .checkmark {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 25px;
+     width: 25px;
+     background-color: #eee;
+     border-radius: 50%;
+   }
+   
+   /* On mouse-over, add a grey background color */
+   .check-car:hover input ~ .checkmark {
+     background-color: #ccc;
+   }
+   
+   /* When the radio button is checked, add a blue background */
+   .check-car input:checked ~ .checkmark {
+     background-color: #2196F3;
+   }
+   
+   /* Create the indicator (the dot/circle - hidden when not checked) */
+   .checkmark:after {
+     content: "";
+     position: absolute;
+     display: none;
+   }
+   
+   /* Show the indicator (dot/circle) when checked */
+   .check-car input:checked ~ .checkmark:after {
+     display: block;
+   }
+   
+   /* Style the indicator (dot/circle) */
+   .check-car .checkmark:after {
+         top: 9px;
+        left: 9px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: white;
+   }
+/* custom radio end */
+
+
+
+.check-car-again {
+     display: block;
+     position: relative;
+     margin-bottom: 12px;
+     cursor: pointer;
+     font-size: 22px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+   }
+   
+   /* Hide the browser's default radio button */
+   .check-car-again input {
+     position: absolute;
+     opacity: 0;
+     cursor: pointer;
+   }
+   
+   /* Create a custom radio button */
+   .checkmark {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 25px;
+     width: 25px;
+     background-color: #eee;
+     border-radius: 50%;
+   }
+   
+   /* On mouse-over, add a grey background color */
+   .check-car-again:hover input ~ .checkmark {
+     background-color: #ccc;
+   }
+   
+   /* When the radio button is checked, add a blue background */
+   .check-car-again input:checked ~ .checkmark {
+     background-color: #2196F3;
+   }
+   
+   /* Create the indicator (the dot/circle - hidden when not checked) */
+   .checkmark:after {
+     content: "";
+     position: absolute;
+     display: none;
+   }
+   
+   /* Show the indicator (dot/circle) when checked */
+   .check-car-again input:checked ~ .checkmark:after {
+     display: block;
+   }
+   
+   /* Style the indicator (dot/circle) */
+   .check-car-again .checkmark:after {
+         top: 9px;
+        left: 9px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: white;
+   }
+
+
+
+
+
+   /* custom checkbox */
+   .custom_container {
+     display: block;
+     position: relative;
+     padding-left: 35px;
+     margin-bottom: 12px;
+     cursor: pointer;
+     font-size: 22px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+   }
+   
+   /* Hide the browser's default checkbox */
+   .custom_container input {
+     position: absolute;
+     opacity: 0;
+     cursor: pointer;
+     height: 0;
+     width: 0;
+   }
+   
+   /* Create a custom checkbox */
+   .checkmark {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 25px;
+     width: 25px;
+     background-color: #eee;
+     border-radius: 5px;
+   }
+   
+   /* On mouse-over, add a grey background color */
+   .custom_container:hover input ~ .checkmark {
+     background-color: #ccc;
+     border-radius: 5px;
+   }
+   
+   /* When the checkbox is checked, add a blue background */
+   .custom_container input:checked ~ .checkmark {
+     background-color: #fcb153;
+     border-radius: 5px;
+   }
+   
+   /* Create the checkmark/indicator (hidden when not checked) */
+   .checkmark:after {
+     content: "";
+     position: absolute;
+     display: none;
+   }
+   
+   /* Show the checkmark when checked */
+   .custom_container input:checked ~ .checkmark:after {
+     display: block;
+   }
+   
+   /* Style the checkmark/indicator */
+   .custom_container .checkmark:after {
+     width: 10px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-radius: 100%;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+/* go to top start */
+.go-to-top a{
+     position: fixed;
+     right: 30px;
+     z-index: 3;
+     bottom: 30px;
+     background: rgba(0,0,0,0.4);
+     padding: 10px 15px;
+     display: none;;
+ }
+ .go-to-top .fas{
+     color: white;
+ }
+ /* go to top end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about section start */
+.about-section{
+     padding: 30px 0;
+}
+.about-section .left h2 span{
+     color: #224488;
+}
+.about-section .left h3{
+     color: #224488;
+}
+.about-section .left h2{
+     position: relative
+}
+.about-section .left h2::after{
+     content: '';
+     background: #224488;
+    position: absolute;
+    top: 115%;
+    height: 4px;
+    width: 6%;
+    left: 0;
+}
+.about-section .left ul li{
+     margin: 10px 0;
+     list-style: none;
+}
+.about-section .left a{
+     display: inherit;
+     text-align: center;
+     margin: 15px 0;
+}
+.shomadhan-industry.about, .shomadhan-industry.about .container{
+     height: 15vh;
+}
+.shomadhaan-main.about .left{
+     background: white;
+     padding: 15px;
+     position: absolute;
+     top: 50%;
+     left: 0;
+     transform: translateY(-50%);
+     box-shadow: #696565 0px 7px 14px -12px;
+     width: 100%;
+}
+.about-bottom{
+     padding: 30px 0;
+     background:white ;
+}
+.about-bottom .left{
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     left: 0;
+}
+.about-bottom .middle-left img{
+     width: 100%;
+}
+.about-bottom .middle-left-bottom, 
+.about-bottom .middle-right,
+.about-bottom .right{
+     padding: 15px;
+    box-shadow: #696565 0px 0px 9px -5px;
+}
+.about-bottom-box{
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+}
+/* about section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* auth section start */
+.auth-section{
+     padding: 30px 0;
+     background: #e6e6e6;
+}
+.auth-section .right p a{
+     color: #055555;
+}
+.auth-box{
+     background: white;
+     padding: 30px;
+     margin-top: 30px;
+}
+.auth-custom .form-control{
+     border-radius: 0;
+}
+.auth-custom .form-control:focus{
+     border: 1px solid #272727;
+}
+.auth-custom a{
+     display: block;
+     text-align: center;
+     margin-top: 15px;
+}
+.auth-button{
+     background: #272727;
+     color: white;
+     width: 100%;
+     border: none;
+     padding: 10px;
+}
+.auth-button:hover{
+background: #e6e6e6;
+    color: #272727;
+}
+.auth-with-google{
+     background: #d34836;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+.auth-with-google .fab,
+.auth-with-facebook .fab{
+     padding-right: 15px;
+}
+.auth-with-google:hover{
+     color: white;
+}
+.auth-with-facebook:hover{
+     color: white;
+}
+.auth-with-facebook{
+     background: #3b5998;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+.auth-media{
+     position: absolute;
+     top: 50%;
+     left: 0;
+     transform: translateY(-50%);
+     width: 100%;
+}
+.register-form{
+     display: inherit;
+}
+.register-form .auth-custom{
+     padding: 15px;
+}
+/* auth section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section start */
+footer{
+     background: #515b68;
+     padding: 30px 0;
+     position: relative;
+     height: 35vh;
+}
+footer .container{
+     height: 35vh;
+     position: relative;
+}
+.widget-item ul li{
+     list-style: none;
+}
+.widget-item ul li a{
+     color: white;
+     margin-top: 5px;
+     display: inline-block;
+}
+.widget-item .social-media li{
+     display: inline-block;
+     margin: 0 5px;
+     background: #868d96;
+     height: 30px;
+     width: 30px;
+     position: relative;
+}
+.widget-item .social-media li a{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     margin: 0;
+}
+.newsletter-row{
+     background: white;
+     padding: 15px;
+     position: absolute;
+     left: 0;
+     width: 100%;
+     bottom: 0;
+}
+.newsletter-row .right{
+     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+}
+.newsletter-row .middle{
+     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    padding-right: 15px;
+}
+.newsletter-row .middle h3{
+     text-align: right;
+}
+.newsletter-row .top-right button{
+     background: #055555;
+    color: white;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+.newsletter-row .top-right button:hover{
+     background: white;
+     color: #055555;
+}
+.newsletter-row .top-right{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+}
+.footer-bottom{
+     padding: 50px 0 15px 0;
+     background: #f7f8f9;
+}
+.confirm-booking {
+     margin-top: 30px;
+}
+.confirm-booking button{
+     width: 100%;
+    padding: 15px;
+    border: none;
+    background: #000000;
+    color: white;
+    border-radius: 5px;
+}
+     
+/* footer section end */
